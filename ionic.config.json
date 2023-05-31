@@ -1,0 +1,7 @@
+{
+  "name": "MedTempoAngular",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
