@@ -1,16 +1,40 @@
 //@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,800;1,700&display=swap');
 
 .titulo-principal{
-  color: #000000;
   font-weight: bold;
+  margin-top: 5px;
+  padding: 10px;
+
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.toolbar-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 
-/*.img-logo{
-  height: 100px;
-  width: 100px;
+.img-logo{
+  height: 40px;
+  width: 40px;
   margin-top: 10px;
-}*/
+  flex-direction: row;
+}
+
+.toolbar-content{
+  flex-direction: row;
+  display:flex;
+}
+
+ion-title{
+  display: flex;
+  flex-direction: row;
+}
 
 ion-menu::part(backdrop) {
   background-color: rgba(255, 0, 255, 0.5);
