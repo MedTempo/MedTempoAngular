@@ -1,5 +1,10 @@
 //@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,800;1,700&display=swap');
 
+.cabecalho-menu{
+  background-color: #2D516C;
+  flex-direction: row;
+  display:flex;
+}
 .titulo-principal{
   font-weight: bold;
   margin-top: 5px;
@@ -12,12 +17,6 @@
   flex-direction: row;
 }
 
-.toolbar-content{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 
 .img-logo{
   height: 40px;
@@ -26,22 +25,21 @@
   flex-direction: row;
 }
 
-.toolbar-content{
-  flex-direction: row;
-  display:flex;
-}
-
 ion-title{
   display: flex;
   flex-direction: row;
 }
 
 ion-menu::part(backdrop) {
-  background-color: rgba(255, 0, 255, 0.5);
+  background-color: #2D516C;
 }
 
 ion-menu::part(container) {
   border-radius: 0 20px 20px 0;
 
-  box-shadow: 4px 0px 16px rgba(255, 0, 255, 0.18);
+  box-shadow: 4px 0px 16px #2D516C;
+}
+
+button-native{
+  background-color: #2D516C;
 }
