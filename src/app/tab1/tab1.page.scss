@@ -1,14 +1,20 @@
 //@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,800;1,700&display=swap');
 
 .cabecalho-menu{
-  background-color: #2D516C;
   flex-direction: row;
   display:flex;
 }
+
+.menu{
+  color: #000000;
+}
+
 .titulo-principal{
+  color: #2D516C;
   font-weight: bold;
+  font-size: 25px;
   margin-top: 5px;
-  padding: 10px;
+  padding: 7px;
 
 }
 
@@ -22,6 +28,7 @@
   height: 40px;
   width: 40px;
   margin-top: 10px;
+  margin-left: 20px;
   flex-direction: row;
 }
 

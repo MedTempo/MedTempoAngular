@@ -1,7 +1,7 @@
 <ion-app>
   <ion-menu contentId="main-content">
     <ion-header>
-      <ion-toolbar color="dark" >
+      <ion-toolbar class="menu-lateral">
         <div class="cabecalho-menu">
           <ion-menu-button></ion-menu-button>
           <ion-title>Menu Lateral</ion-title>
@@ -14,8 +14,8 @@
   <div class="ion-page" id="main-content">
     <ion-header>
       <ion-toolbar>
-        <ion-buttons slot="start">
-          <ion-menu-button></ion-menu-button>
+        <ion-buttons slot="end">
+          <ion-menu-button class="menu"></ion-menu-button>
         </ion-buttons>
         <div class="flex">
         <ion-img class="img-logo"
@@ -26,6 +26,6 @@
         </div>
       </ion-toolbar>
     </ion-header>
-    <ion-content class="ion-padding"> Tap the button in the toolbar to open the menu. </ion-content>
+    <ion-content class="ion-padding">This is the menu content.</ion-content>
   </div>
 </ion-app>
