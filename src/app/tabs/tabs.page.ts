@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import './tabs.page.scss';
 
 @Component({
   selector: 'app-tabs',
