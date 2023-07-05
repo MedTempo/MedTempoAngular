@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .titulo{
@@ -20,4 +19,38 @@
   font-family: 'Roboto';
   font-size: 12px;
   text-align: center;
+}
+
+.cardRemedio{
+  border-width: medium;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #2D516C;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.cardTitulo{
+  text-align: center;
+  color: #2D516C;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 23px;
+}
+
+.cardSub{
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: black;
+}
+
+.cardButton{
+  align-items: center;
+  text-align: center;
+  background-color: #2D516C;
+  color: black;
 }
