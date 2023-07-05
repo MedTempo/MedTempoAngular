@@ -1,26 +1,27 @@
 <!--Menu principal!-->
 
-<ion-app>
-  <ion-menu contentId="main-content">
+<div>
+  <ion-menu side="end" contentId="main-content">
     <ion-header>
-      <ion-toolbar class="menu-lateral">
-        <div class="cabecalho-menu">
+      <ion-toolbar slot="">
+        <div slot="end" class="cabecalho-menu">
           <ion-menu-button></ion-menu-button>
           <ion-title>Menu Lateral</ion-title>
-          <ion-menu-button>X</ion-menu-button>
+          <!--<ion-menu-button>X</ion-menu-button>-->
         </div>
       </ion-toolbar>
     </ion-header>
     <ion-content class="ion-padding">This is the menu content.</ion-content>
   </ion-menu>
-  <div class="ion-page" id="main-content">
+  <div id="main-content">
     <ion-header>
       <ion-toolbar>
         <ion-buttons slot="end">
-          <ion-menu-button class="menu"></ion-menu-button>
+          <ion-menu-button slot="end" class="menu"></ion-menu-button>
         </ion-buttons>
         <div class="flex">
-        <ion-img class="img-logo"
+          <ion-img
+            class="img-logo"
             src="../assets/image/logo.png"
             alt="Logo"
           ></ion-img>
@@ -28,12 +29,7 @@
         </div>
       </ion-toolbar>
     </ion-header>
-<!-- Fim Menu principal!-->
-
-    <ion-content class="ion-padding">
-      <h1>BEM VINDO(A)!</h1>
-      <h2>José Filho da Silva </h2>
-      <h3>Fique sempre atento(a) aos seus medicamentos</h3>
-    </ion-content>
+    <!-- Fim Menu principal!-->
   </div>
-</ion-app>
+
+</div>

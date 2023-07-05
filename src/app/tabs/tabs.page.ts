@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import './tabs.page.scss';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-tabs',
@@ -8,6 +8,10 @@ import './tabs.page.scss';
 })
 export class TabsPage {
 
-  constructor() {}
+  constructor(public nav: NavController) {}
+
+ abrirPagina(){
+  this.nav.navigateForward('tab2');
+}
 
 }
