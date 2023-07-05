@@ -33,6 +33,6 @@ npm run dev
 
 
 
-### Comando para o build Android
+### Comando para o build Android (production)
 
 - Lembre-se de instalar as dependências do Java
